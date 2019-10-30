@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Header */
+
+header {
+	display: block;
+}
+
+section {
+	display: block;
+}
+
+nav {
+	width: 70%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav a {
+	margin: 0;
+	color: grey;
+	text-decoration: none;
+	display: inline-block;
+	width: 16%;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
+.logo {
+	width: 25%;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Innovation on Demand/Code Snippet img */
+.title {
+	width: 45%;
+	height: 100%;
+	display: inline-block;
+	margin: 0px 15px;
+	padding: 50px 30px 100px;
+	vertical-align: middle;
+}
+
+.title h1 {
+	font-size: 100px;
+	text-align: center;
+	
+}
+
+#get-started {
+	border: 1px solid black;
+	color: black;
+	text-decoration: none;
+	padding: 5px 50px;
+}
+
+.title-banner {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.title-banner img {
+	width: 50%;
+	vertical-align: middle;
+}
+
+/* Main Content */
+
+.first-half, .second-half {
+	padding: 30px;
+	display: block;
+	padding: 50px 0;
+}
+
+.first-half {
+	border-top: 2px solid black 
+}
+
+.second-half {
+	border-bottom: 2px solid black;
+}
+
+.first-second {
+	width: 45%;
+	display: inline-block;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.last-three {
+	width: 30%;
+	display: inline-block;
+}
+
+/* Contact */
+
+.contact {
+	display: block;
+	text-align: left;
+	padding: 30px 0;
+	line-height: 2;
+}
+
+footer {
+	text-align: center;
+	font-size:  10px;
+}
