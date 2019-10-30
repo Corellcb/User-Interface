@@ -69,6 +69,11 @@ h1, h2, h3, h4, h5 {
 
 header {
 	display: block;
+	border: 2px solid black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: whitesmoke;
 }
 
 section {
@@ -80,22 +85,25 @@ nav {
 	height: 100%;
 	display: inline-block;
 	vertical-align: middle;
+	background-color: grey;
+	padding: 20px;
+	margin: 0;
 }
 
 nav a {
 	margin: 0;
-	color: grey;
+	color: white;
 	text-decoration: none;
 	display: inline-block;
 	width: 16%;
 	text-align: center;
 	vertical-align: middle;
-	
+	border: 2px solid black:
 }
 
 .logo {
 	width: 25%;
-	padding: 10px;
+	margin: 0 10px;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -123,9 +131,15 @@ nav a {
 	padding: 5px 50px;
 }
 
+#get-started:hover {
+	background: black;
+	color: white;
+	transition: 0.2s;
+}
+
 .title-banner {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-bottom: 50px;
 }
 
