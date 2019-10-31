@@ -105,6 +105,8 @@ nav a {
 	
 }
 
+/* Ask about lining up nav with logo */
+
 .logo {
 	width: 25%;
 	margin: 0 10px;
@@ -113,6 +115,20 @@ nav a {
 }
 
 /* Innovation on Demand/Code Snippet img */
+
+.title-banner {
+	text-align: center;
+	margin-top: 58px;
+	margin-bottom: 0;
+	background: black;
+}
+
+.code-snippet {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
 .title {
 	width: 45%;
 	height: 100%;
@@ -125,32 +141,27 @@ nav a {
 .title h1 {
 	font-size: 80px;
 	text-align: center;
-	
+	color: white;
 }
 
 #get-started {
-	border: 1px solid black;
-	color: black;
+	border: 1px solid white;
+	color: white;
 	text-decoration: none;
 	padding: 5px 50px;
+	background-color: black;
 }
 
 #get-started:hover {
-	background: black;
-	color: white;
+	background: white;
+	color: black;
 	transition: 0.2s;
 }
 
-.title-banner {
-	text-align: center;
-	margin-top: 100px;
-	margin-bottom: 50px;
-}
-
-.title-banner img {
+/* .title-banner img {
 	width: 50%;
 	vertical-align: middle;
-}
+} */
 
 /* Main Content */
 
@@ -158,6 +169,9 @@ nav a {
 	padding: 30px;
 	display: block;
 	padding: 50px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
 }
 
 .first-half {
@@ -166,6 +180,10 @@ nav a {
 
 .second-half {
 	border-bottom: 2px solid black;
+}
+
+.first-second, .last-three {
+	background-color: black;
 }
 
 .first-second {
@@ -180,6 +198,11 @@ nav a {
 .last-three {
 	width: 30%;
 	display: inline-block;
+	margin-top: 30px;
+}
+
+.first-second:first-child {
+	margin-left: 20px;
 }
 
 /* Contact */
@@ -189,9 +212,12 @@ nav a {
 	text-align: left;
 	padding: 30px 0;
 	line-height: 2;
+	background-color: black;
+	color: white;
 }
 
 footer {
 	text-align: center;
 	font-size:  10px;
+	color: white;
 }
