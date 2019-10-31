@@ -64,3 +64,157 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Header */
+
+header {
+	display: block;
+	border-bottom: 2px solid black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: whitesmoke;
+}
+
+section {
+	display: block;
+}
+
+a {
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+nav {
+	width: 70%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: black;
+	padding: 20px;
+	margin: 0;
+}
+
+nav a {
+	margin: 0;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	width: 16%;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
+/* Ask about lining up nav with logo */
+
+.logo {
+	width: 25%;
+	margin: 0 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Innovation on Demand/Code Snippet img */
+
+.title-banner {
+	text-align: center;
+	margin-top: 58px;
+	margin-bottom: 0;
+	background: black;
+}
+
+.code-snippet {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+.title {
+	width: 45%;
+	height: 100%;
+	display: inline-block;
+	margin: 0px 15px;
+	padding: 50px 30px 100px;
+	vertical-align: middle;
+}
+
+.title h1 {
+	font-size: 80px;
+	text-align: center;
+	color: white;
+}
+
+#get-started {
+	border: 1px solid white;
+	color: white;
+	text-decoration: none;
+	padding: 5px 50px;
+	background-color: black;
+}
+
+#get-started:hover {
+	background: white;
+	color: black;
+	transition: 0.2s;
+}
+
+/* .title-banner img {
+	width: 50%;
+	vertical-align: middle;
+} */
+
+/* Main Content */
+
+.first-half, .second-half {
+	padding: 30px;
+	display: block;
+	padding: 50px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+.first-half {
+	border-top: 2px solid black 
+}
+
+.second-half {
+	border-bottom: 2px solid black;
+}
+
+.first-second {
+	width: 45%;
+	display: inline-block;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.last-three {
+	width: 30%;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.first-second:first-child {
+	margin-left: 20px;
+}
+
+/* Contact */
+
+.contact {
+	display: block;
+	text-align: left;
+	padding: 30px 0;
+	line-height: 2;
+	background-color: black;
+	color: white;
+}
+
+footer {
+	text-align: center;
+	font-size:  10px;
+	color: white;
+	background-color: black;
+}
